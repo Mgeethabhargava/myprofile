@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="./static/assets/css/styles.css">
+        <link rel="stylesheet" href="./static/assets/css/1.css">
+
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>  
+
+        <title>MyProfile</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                
+                <div>
+                    <a href="{{url_for('main')}}" class="nav__logo">Mandava Geetha Bhargava</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link ">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                        <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                        <li class="nav__item"><button><a href="" >Resume</a></button></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <h1 class="home1_title"><span>Hi, my name is</span><br><span class="home__title">Mandava Geetha Bhargava</span><br><span class="home__title">
+                    I'm a Vijayawada-based Software Developer who specializes in building (and occasionally designing) exceptional digital experiences. Currently, I'm an web developer at Techzite Solutions (P) Limited focused on building accessible, human-centered products.</span></h1>
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
+                    </div>
+
+                    <!-- <img src="https://i1.rgstatic.net/ii/profile.image/759940805300225-1558195415202_Q512/Geetha-Bhargava-Mandava.jpg" alt="" class="home__img"> -->
+                </div>
+            </section>
+            
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="./static/assets/img/pp.png" alt="">
+                        <!-- <img src="https://i1.rgstatic.net/ii/profile.image/759940805300225-1558195415202_Q512/Geetha-Bhargava-Mandava.jpg" alt=""> -->
+                    </div>
+
+                    <div>
+                        <h2 class="about__subtitle">Mandava Geetha Bhargava</h2>
+                        <span class="about__profession">Software Developer</span>
+                        <p class="about__text">I enjoy creating things that live on the internet. My interest especially in artificial intelligence, data science and web development started back in 2017 when I decided to try custom Machine Learning Model turns out hacking together a custom AI application taught me a lot about AI Model , HTML,Javscript & CSS! as well as it's deployment too;
+                            Fast-forward to today, and I've had the privilege of working at a MNC, and a start-up. My main focus these days is building accessible, inclusive products and digital experiences at Techzite IT Solutions for a variety of clients and I am ready to work as Freelancer</p>
+                        <div class="about__social">
+
+                            
+                            <a href="https://www.linkedin.com/in/mgbhargava/" class="about__social-icon" data-sr-id="9" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.6s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.6s;">
+                                <span class="iconify" data-icon="logos-linkedin-icon" data-inline="false"></span>
+                            </a>
+                        
+                            <a href="https://github.com/Mgeethabhargava" class="about__social-icon" data-sr-id="10" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.6s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.6s;">
+                                <span class="iconify" data-icon="akar-icons:github-fill" data-inline="false"></span>
+                            </a>
+                        
+                            <a href="https://www.researchgate.net/profile/Geetha-Bhargava-Mandava" class="about__social-icon" data-sr-id="11" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.6s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.6s;">
+                                <span class="iconify" data-icon="simple-icons:researchgate" data-inline="false"></span>
+                            </a>
+                        
+                        
+                    </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">
+                    <div class="skills__box">
+                        <h3 class="skills__subtitle">Programming Languages</h3>
+                                <span class="skills__name">Python</span>
+                                <span class="skills__name">R</span>
+                                <span class="skills__name">Javascript</span>
+                                <span class="skills__name">C++</span>
+                                <span class="skills__name">C</span>
+                        <h3 class="skills__subtitle">Deep Learning Frameworks</h3>
+                                <span class="skills__name">Tensorflow</span>
+                                <span class="skills__name">PyTorch</span>
+                        <h3 class="skills__subtitle">Programming Libraries</h3>
+                                <span class="skills__name">Opencv</span>
+                                <span class="skills__name">Numpy</span>
+                                <span class="skills__name">Pandas</span>
+                                <span class="skills__name">Sci-Kit Learn</span>
+                                <span class="skills__name">NLTK</span>
+                        <h3 class="skills__subtitle">Configuration Management</h3>
+                                <span class="skills__name">GitHub</span>
+                                <span class="skills__name">GitLab</span>
+                        <h3 class="skills__subtitle">Web Development</h3>
+                                <span class="skills__name">HTML</span>
+                                <span class="skills__name">CSS</span>
+                                <span class="skills__name">BOOTSTRAP</span>
+                        <h3 class="skills__subtitle">Web Frameworks and Databases</h3>
+                                <span class="skills__name">Django</span>
+                                <span class="skills__name">Flask</span>
+                                <span class="skills__name">MySQL</span>
+                                <span class="skills__name">SQLite3</span>
+                        <h3 class="skills__subtitle">Platforms</h3>
+                            <span class="skills__name">Linux</span>
+                            <span class="skills__name">Windows</span>
+                        <h3 class="skills__subtitle">Data Visualization Tools</h3>
+                            <span class="skills__name">Microsoft Power BI</span>
+                            <span class="skills__name">Matplotlib</span>
+                            <span class="skills__name">Seaborn</span>
+                    </div>
+                    <div class="skills__img">
+                        <img src="./static/assets/img/skill.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+            <!--===== Experience =======-->
+            <section class="experience section" id="experience">
+                <h2 class="section-title">Where I’ve Worked</h2>
+                <div id="tabsDiv" class="tabsDiv">
+                    <div id="tsl" class="contentClass">
+                        <h3>Techzite Solutions (P) Ltd</h3>
+                        <p>Working on web development of E-Commerce Sites</p>
+                    </div>
+              
+                    <div id="cit" class="contentClass">
+                        <h3>Codegnan IT Solutions (P) Ltd</h3>
+                        <p>Hands on experience on dataset preparation for ai chatbot</p> 
+                        <p>Hand's on experience on Chatbot model training and validation and it's deployment</p>
+                        <p>Hands-on experience on Flask and Django Framework projects such as front office application, apssdc lms project</p> 
+                        <p>Hands-on experience on face detection using opencv </p>
+                        <p>Hands-on experience on automated certificate generation module</p>
+                        <p>Hands-on experience on portfolio module in APSSDC LMS project</p>
+                        </p>
+                    </div>
+              
+                    <div id="oli" class="contentClass">
+                        <h3>Oorwin Labs India (P) Ltd</h3>
+                        <p>Hands on Experience with Resumes and JD parsers Model Training using spacy</p>
+                        <p>Hands on Data Tagging of Resumes and JD’s Data</p>
+                        <p>Developed Preview module for Resume Parser Model </p>
+                        <p>Hands on web scraping using Google API and Scrapy</p>
+                    </div>
+              
+                    <div id="algorithms" class="contentClass">
+                        <h3>Efftronics Systems (P) Ltd</h3>
+              
+                        <p>
+                            Hands-on Experience with Data Analysis and Visualization of Enterprise data using Microsoft Power BI and Shiny Applications.
+                        </p>
+                    </div>
+              
+                    <ul class="ulClass" style="height:300px">
+                        <li style="list-style-type:none;">
+                            <button id = "defaultOpen" class="linkClass" onclick=
+                                "displayContent(event, 'tsl')">
+                                Techzite Solutions (P) Ltd
+                            </button>
+                        </li>
+                          
+                        <li style="list-style-type:none;">
+                            <button class="linkClass" onclick=
+                                "displayContent(event, 'cit')">
+                                Codegnan IT Solutions (P) Ltd
+                            </button>
+                        </li>
+              
+                        <li style="list-style-type:none;">
+                            <button class="linkClass" onclick=
+                                "displayContent(event, 'oli')">
+                                Oorwin Labs India (P) Ltd
+                            </button>
+                        </li>
+              
+                        <li style="list-style-type:none;">
+                            <button class="linkClass" onclick=
+                                "displayContent(event, 'algorithms')">
+                                Efftronics Systems (P) Ltd
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!--===== PORTFOLIO =====-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section-title">Portfolio</h2>
+
+                
+                <div class="portfolio__container bd-grid">
+                    
+                    <div class="portfolio__img">
+                        <img src="./static/assets/img/covid.png" alt="">
+
+                        <div class="portfolio__link">
+                            <p>Covid-19 Dashboard Application</p>
+                            <a href="https://github.com/Mgeethabhargava/covid19tracker" class="portfolio__link-name">View details</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__img">
+                        <img src="./static/assets/img/fdetection.png" alt="">
+
+                        <div class="portfolio__link">
+                            <p>Controlling of video player using face detection</p>
+                            <a href="https://github.com/Mgeethabhargava/facedetection-based-videoplayer" class="portfolio__link-name">View details</a>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio__img">
+                        <img src="./static/assets/img/bonafide.png" alt="">
+
+                        <div class="portfolio__link">
+                            <p>Certificate Generator using flask and pillow</p>
+                            <a href="https://github.com/Mgeethabhargava/certificate_generator" class="portfolio__link-name">View details</a>
+                        </div>
+                    </div><br>
+                    <div class="portfolio__img">
+                        <img src="./static/assets/img/plan1.jpg" alt="">
+
+                        <div class="portfolio__link">
+                            <p>Made a Construction Plan for one of my previous employer company</p>
+                            <a href="https://youtu.be/kQm3SOFTwCc" class="portfolio__link-name">View details</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">EMAIL</h3>
+                        <!-- <span class="contact__text">mgbhargavatech@gmail.com</span> -->
+                        <div><button class=" button1" ><a href="mailto:scientistforresearch@gmail.com" class="email-link">Get In Touch</a></button></div>
+<!-- 
+                        <h3 class="contact__subtitle">PHONE</h3>
+                        <span class="contact__text">+20 999-999</span>
+
+                        <h3 class="contact__subtitle">ADRESS</h3>
+                        <span class="contact__text">My contry</span> -->
+                    </div>
+
+                    <div class="contact__info">
+
+                        <h3 class="contact__subtitle">PHONE</h3>
+                        <span class="contact__text">On Request</span>
+
+                    </div>
+
+                    <!-- <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <input type="text" placeholder="Name" class="contact__input">
+                            <input type="mail" placeholder="Email" class="contact__input">
+                        </div>
+
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+
+                        <input type="submit" value="Enviar" class="contact__button">
+                    </form> -->
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <div class="footer__data">
+                    <h2 class="footer__title">Mandava Geetha Bhargava</h2>
+                    <p class="footer__text">I'm Mandava Geetha Bhargava and this is my personal website</p>
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer__title">EXPLORE</h2>
+                    <ul>
+                        <li><a href="#home" class="footer__link">Home</a></li>
+                        <li><a href="#about" class="footer__link">About</a></li>
+                        <li><a href="#skills" class="footer__link">Skills</a></li>
+                        <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+                        <li><a href="#Contact" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__data">
+                    <h2 class="footer__title">FOLLOW</h2>
+                    <a href="https://www.linkedin.com/in/mgbhargava/" class="footer__social"><span class="iconify" data-icon="logos-linkedin-icon" data-inline="false"></span></a>
+                    <a href="https://github.com/Mgeethabhargava" class="footer__social"><span class="iconify" data-icon="akar-icons:github-fill" data-inline="false"></span></a>
+                    <a href="https://www.researchgate.net/profile/Geetha-Bhargava-Mandava" class="footer__social"><span class="iconify" data-icon="simple-icons:researchgate" data-inline="false"></span></a>
+                </div>
+
+
+            </div>
+        </footer>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="./static/assets/js/main.js"></script>
+        <script src="./static/assets/js/1.js"></script>
+    </body>
+</html>
